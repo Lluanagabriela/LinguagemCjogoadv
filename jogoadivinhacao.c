@@ -22,7 +22,14 @@ int main() {
     
     if(chute == numerosecreto){
         printf("Você aertou!!\n");
+        
+        
     }else{
-        printf("Você errou!!\n");
+        
+        if (chute > numerosecreto);
+            printf("O seu chute foi maior que o número secreto, tente novamente!\n");
+            if (chute < numerosecreto){
+                printf("O seu chute foi menor que o número secreto, tente novamente!\n");
+            }
         }
     }
